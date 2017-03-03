@@ -1,0 +1,7 @@
+#!/bin/sh
+DUMP="$1"
+INDEX="$2"
+#echo DUMP="$1"
+python code/Driver.py --i "$1" --o "$2"
+#rm documents.txt
+#rmdir temp_folder
